@@ -1,0 +1,169 @@
+body{
+    background-image: url(/src/img/fundo-web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    width: 1100px;
+    margin: 0 auto 0 auto;
+    color: #333;
+    height: max-content;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 200px;
+    transition: 0.3s ease-in-out;
+    filter: invert(100%)
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #111620b7;
+    border-radius: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+main .list-players{
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+main .card-player{
+    background-color: #ffffff97;
+    display: flex;
+    padding: 15px;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 13px;
+    transition: 0.3s ease-in-out;
+}
+
+main .card-player:hover{
+    background-color: aquamarine;
+    transform: scale(1.03);
+}
+
+.png-player{
+    max-width: 145px;
+    max-height: 170px;
+    border: 1px solid #35171735;
+    border-radius: 13px;
+    background-color: #204888;
+}
+
+/*Info player*/
+
+.info-player{
+     padding: 7px;
+     color: #fff;
+}
+
+.info-player .country{
+    text-align: center;
+    padding: 4px;
+}
+
+.info-player .country.one{
+    background-color: #ff0000;
+    border-radius: 6px;
+    border: 4px solid #006600 ;
+}
+
+.info-player .country.two{
+    background-color: #74acdf;
+    border-radius: 6px;
+    border: 4px solid #fff;
+}
+
+.info-player .country.tree{
+    background-color: #009c37;
+    border-radius: 6px;
+    border: 4px solid #fee000;
+}
+
+.info-player .country.four{
+    background-color: #006aa7;
+    border-radius: 6px;
+    border: 4px solid #fee000;
+}
+
+.info-player .country.five{
+    background-color: #ba0c2f;
+    border-radius: 6px;
+    border: 4px solid #00205b;
+}
+
+.info-player .country.six{
+    background-color: #009c37;
+    border-radius: 6px;
+    border: 4px solid #fee000;
+}
+
+.info-player .country.seven{
+    background-color: #002654;
+    border-radius: 6px;
+    border: 4px solid #ffffff;
+}
+
+.info-player .country.eight{
+    background-color: #009c37;
+    border-radius: 6px;
+    border: 4px solid #fee000;
+}
+
+.info-player .country.nine{
+    background-color: #002654;
+    border-radius: 6px;
+    border: 4px solid #ffffff;
+}
+
+.info-player .country.ten{
+    background-color: #002654;
+    border-radius: 6px;
+    border: 4px solid #ffffff;
+}
+
+/*name Player*/
+.informations{
+    text-align: center;
+}
+
+.informations span{
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/*Position Player*/
+.info-player .position{
+    padding-top: 7px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/*Info player*/
+
+/*Description*/
+
+main .description{
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
